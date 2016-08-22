@@ -1,0 +1,23 @@
+{
+  "name": "cubx-grunt-webpackage-version-converter",
+  "version": "1.0.0",
+  "description": "Grunt plugin for convert webpackages from modelVersion 8.x to modelVersion 9.1",
+  "scripts": {
+    "prepublish": "npm run lint",
+    "lint": "eslint lib task *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cubbles/cubx-grunt-webpackage-version-converter.git"
+  },
+  "keywords": [
+    "cubbles","cubx", "grunt"
+  ],
+  "author": "Judit Ross <judit.ross@incowia.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cubbles/cubx-grunt-webpackage-version-converter/issues"
+  },
+  "homepage": "https://github.com/cubbles/cubx-grunt-webpackage-version-converter#readme"
+}
