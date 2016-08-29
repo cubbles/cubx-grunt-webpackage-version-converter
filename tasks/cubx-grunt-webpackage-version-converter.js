@@ -11,7 +11,8 @@ module.exports = function (grunt) {
     if (!webpackagePath) {
       throw new Error('webpackagePath missed. Please defined the option webpackagePath.');
     }
+    var done = this.async();
     var converter = new Converter(webpackagePath);
-    converter.convert();
+    converter.convert(done);
   });
 };
