@@ -36,7 +36,7 @@
     "time-grunt": "^1.4.0"
   },
   "dependencies": {
-    "cubx-webpackage-version-converter": "^1.2.2",
+    "cubx-webpackage-version-converter": "^1.2.6",
     "eslint": "^3.3.1",
     "eslint-config-standard": "^6.0.0",
     "standard": "^8.0.0"
