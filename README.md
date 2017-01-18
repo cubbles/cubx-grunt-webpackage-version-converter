@@ -1,5 +1,7 @@
 # cubx-grunt-webpackage-version-converter
 
+[![Build Status](https://travis-ci.org/cubbles/cubx-webpackage-version-converter.svg?branch=master)](https://travis-ci.org/cubbles/cubx-webpackage-version-converter.svg?branch=master)
+
 Grunt plugin for convert webpackages from modelVersion 8.x to modelVersion 9.1
  
 ## Usage:
@@ -31,3 +33,4 @@ Gruntfile
   
     npm install cubx-grunt-webpackage-version-converter --save
  
+
