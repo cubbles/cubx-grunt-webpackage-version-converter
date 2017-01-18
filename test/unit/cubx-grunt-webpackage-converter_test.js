@@ -82,7 +82,7 @@
       });
     });
   });
-  describe('run grunt task "cubx-grunt-webpackage-version-converter" webpackage path configured in cubx-grunt-webpackage-version-converter.webpacakgePath', function () {
+  describe('run grunt task "cubx-grunt-webpackage-version-converter" webpackage path configured in cubx-grunt-webpackage-version-converter.webpackagePath', function () {
     beforeEach(function () {
       // Init config
       grunt.initConfig({
