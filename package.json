@@ -39,6 +39,8 @@
     "cubx-webpackage-version-converter": "^1.2.6",
     "eslint": "^3.3.1",
     "eslint-config-standard": "^6.0.0",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1",
     "standard": "^8.0.0"
   }
 }
