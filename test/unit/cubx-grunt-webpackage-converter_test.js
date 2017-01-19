@@ -68,14 +68,14 @@
     afterEach(function () {
       grunt.initConfig({});
     });
-    it('shoud be changed the modelVersion', function (done) {
+    it('should be changed the modelVersion', function (done) {
       grunt.tasks([ '_convertWebpackage' ], {}, function () {
         fs.readFile(manifestPath, 'utf8', function (err, data) {
           if (err) {
             throw new Error(err);
           } else {
             var manifest = JSON.parse(data);
-            manifest.should.have.property('modelVersion', '9.1.0');
+            manifest.should.have.property('modelVersion', '9.1.1');
           }
           done();
         });
@@ -99,7 +99,7 @@
             throw new Error(err);
           } else {
             var manifest = JSON.parse(data);
-            manifest.should.have.property('modelVersion', '9.1.0');
+            manifest.should.have.property('modelVersion', '9.1.1');
           }
           done();
         });
