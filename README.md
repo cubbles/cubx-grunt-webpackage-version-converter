@@ -9,28 +9,32 @@ Grunt plugin for convert webpackages from modelVersion 8.x to modelVersion 9.1
 ### default
 
 install the grunt plugin 
-    
-    npm install cubx-grunt-webpackage-version-converter --save-dev
+
+```
+npm install cubx-grunt-webpackage-version-converter --save-dev
+```
 
 Gruntfile
 
 * load the grunt plugin
     
-    
-    grunt.loadNpmTasks(cubx-grunt-webpackage-version-converter)
+```    
+grunt.loadNpmTasks(cubx-grunt-webpackage-version-converter)
+```
         
 * set config (path to webpackage to convert 
     
-        
-    grunt.initConfig({
-       webpackagepath: ...
-    });
+```        
+grunt.initConfig({
+   webpackagepath: ...
+});
+```
 
  
 ### integrate in devtools: 
 * Just install grunt plugin
   
-  
-    npm install cubx-grunt-webpackage-version-converter --save
- 
+```
+npm install cubx-grunt-webpackage-version-converter --save
+```
 
